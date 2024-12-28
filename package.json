@@ -1,0 +1,49 @@
+{
+  "name": "@dada78641/nyabby",
+  "description": "Basic scraper for Nyaa search queries",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/lib/index.cjs",
+  "module": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch src",
+    "check": "tsc -p ./tsconfig.json --noEmit",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msikma/nyabby.git"
+  },
+  "bin": {
+    "nyabby": "dist/cli/nyabby.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/argparse": "^2.0.17",
+    "@types/lodash.orderby": "^4.6.9",
+    "@types/node": "^22.10.2",
+    "@types/xml2js": "^0.4.14",
+    "eslint": "^9.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.1.3"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "lodash.orderby": "^4.6.0",
+    "rss-parser": "^3.13.0",
+    "xml2js": "^0.6.2"
+  }
+}
