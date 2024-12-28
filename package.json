@@ -43,7 +43,6 @@
   "dependencies": {
     "argparse": "^2.0.1",
     "lodash.orderby": "^4.6.0",
-    "rss-parser": "^3.13.0",
     "xml2js": "^0.6.2"
   }
 }
