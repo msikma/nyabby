@@ -1,6 +1,6 @@
 {
   "name": "@dada78641/nyabby",
-  "description": "Basic scraper for Nyaa search queries",
+  "description": "Runs Nyaa search queries via RSS",
   "version": "0.1.0",
   "type": "module",
   "main": "dist/lib/index.cjs",
