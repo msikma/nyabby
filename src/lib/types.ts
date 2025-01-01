@@ -10,13 +10,13 @@ export type idSlugName = [id, slug, name]
 // A single search query object.
 export interface NyaaSearch {
   query: string
-  filter: string | null
-  category: string | null
-  minSeeders: number | null
-  maxDate: Date | null
-  maxAge: number | null
-  minDate: Date | null
-  minAge: number | null
+  filter?: string | null
+  category?: string | null
+  minSeeders?: number | null
+  maxDate?: Date | null
+  maxAge?: number | null
+  minDate?: Date | null
+  minAge?: number | null
 }
 
 // A parsed RSS feed channel object.
