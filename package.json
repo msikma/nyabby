@@ -1,7 +1,7 @@
 {
   "name": "@dada78641/nyabby",
   "description": "Runs Nyaa search queries via RSS",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "dist/lib/index.cjs",
   "module": "dist/lib/index.js",

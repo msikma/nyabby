@@ -2,4 +2,5 @@
 // © MIT license
 
 export * from './lib/index.ts'
+export {filter, category} from './lib/filters.ts'
 export type * from './lib/types.ts'
